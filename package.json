@@ -5,7 +5,8 @@
   "scripts": {
     "start": "node server.js",
     "client": "npm start --prefix client",
-    "dev": "concurrently \"npm run client\" \"nodemon server.js\""
+    "dev": "concurrently \"npm run client\" \"nodemon server.js\"",
+    "test": "echo 'No tests specified' && exit 0"
   },
   "dependencies": {
     "express": "^4.18.2",
